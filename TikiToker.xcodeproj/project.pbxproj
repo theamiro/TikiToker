@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,27 @@
 		025F7FE8259083250034A175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025F7FE6259083250034A175 /* LaunchScreen.storyboard */; };
 		025F7FF3259083250034A175 /* TikiTokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F7FF2259083250034A175 /* TikiTokerTests.swift */; };
 		025F7FFE259083250034A175 /* TikiTokerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F7FFD259083250034A175 /* TikiTokerUITests.swift */; };
+		02C1B5E4259140FD003018DF /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B5E3259140FD003018DF /* AccountViewController.swift */; };
+		02C1B5FB25914A5B003018DF /* InboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B5F925914A5B003018DF /* InboxTableViewCell.swift */; };
+		02C1B5FC25914A5B003018DF /* InboxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C1B5FA25914A5B003018DF /* InboxTableViewCell.xib */; };
+		02C1B60125914A6A003018DF /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B60025914A6A003018DF /* InboxViewController.swift */; };
+		02C1B6072591CAB0003018DF /* SectionHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B6052591CAB0003018DF /* SectionHeaderTableViewCell.swift */; };
+		02C1B6082591CAB0003018DF /* SectionHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C1B6062591CAB0003018DF /* SectionHeaderTableViewCell.xib */; };
+		02C1B6222591CF05003018DF /* AccountHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C1B6202591CF05003018DF /* AccountHeaderTableViewCell.xib */; };
+		02C1B6232591CF05003018DF /* AccountHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1B6212591CF05003018DF /* AccountHeaderTableViewCell.swift */; };
+		02FC83BE2590ECD700A482A4 /* HomeFeedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC83BD2590ECD700A482A4 /* HomeFeedViewCell.swift */; };
+		02FC83C32590ED4200A482A4 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC83C22590ED4200A482A4 /* MainTabBarController.swift */; };
+		02FC83C92590F17A00A482A4 /* UIGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC83C82590F17A00A482A4 /* UIGradientView.swift */; };
+		02FC83CF2590F1A900A482A4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC83CE2590F1A900A482A4 /* Post.swift */; };
+		02FC83E22590FADB00A482A4 /* DiscoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC83E02590FADB00A482A4 /* DiscoverCollectionViewCell.swift */; };
+		02FC83E32590FADB00A482A4 /* DiscoverCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FC83E12590FADB00A482A4 /* DiscoverCollectionViewCell.xib */; };
+		02FC83E92590FB3300A482A4 /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC83E72590FB3300A482A4 /* DiscoverTableViewCell.swift */; };
+		02FC83EA2590FB3300A482A4 /* DiscoverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FC83E82590FB3300A482A4 /* DiscoverTableViewCell.xib */; };
+		02FC83F32590FB9800A482A4 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC83F22590FB9800A482A4 /* DiscoverViewController.swift */; };
+		02FC8445259126E300A482A4 /* DiscoverHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC8443259126E300A482A4 /* DiscoverHeaderTableViewCell.swift */; };
+		02FC8446259126E300A482A4 /* DiscoverHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FC8444259126E300A482A4 /* DiscoverHeaderTableViewCell.xib */; };
+		02FC844F259129FD00A482A4 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC844D259129FD00A482A4 /* HeaderCollectionViewCell.swift */; };
+		02FC8450259129FD00A482A4 /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02FC844E259129FD00A482A4 /* HeaderCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +70,27 @@
 		025F7FF9259083250034A175 /* TikiTokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikiTokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		025F7FFD259083250034A175 /* TikiTokerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikiTokerUITests.swift; sourceTree = "<group>"; };
 		025F7FFF259083250034A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C1B5E3259140FD003018DF /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		02C1B5F925914A5B003018DF /* InboxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTableViewCell.swift; sourceTree = "<group>"; };
+		02C1B5FA25914A5B003018DF /* InboxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InboxTableViewCell.xib; sourceTree = "<group>"; };
+		02C1B60025914A6A003018DF /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		02C1B6052591CAB0003018DF /* SectionHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		02C1B6062591CAB0003018DF /* SectionHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		02C1B6202591CF05003018DF /* AccountHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		02C1B6212591CF05003018DF /* AccountHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		02FC83BD2590ECD700A482A4 /* HomeFeedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewCell.swift; sourceTree = "<group>"; };
+		02FC83C22590ED4200A482A4 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		02FC83C82590F17A00A482A4 /* UIGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientView.swift; sourceTree = "<group>"; };
+		02FC83CE2590F1A900A482A4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		02FC83E02590FADB00A482A4 /* DiscoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionViewCell.swift; sourceTree = "<group>"; };
+		02FC83E12590FADB00A482A4 /* DiscoverCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverCollectionViewCell.xib; sourceTree = "<group>"; };
+		02FC83E72590FB3300A482A4 /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
+		02FC83E82590FB3300A482A4 /* DiscoverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverTableViewCell.xib; sourceTree = "<group>"; };
+		02FC83F22590FB9800A482A4 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		02FC8443259126E300A482A4 /* DiscoverHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		02FC8444259126E300A482A4 /* DiscoverHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		02FC844D259129FD00A482A4 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		02FC844E259129FD00A482A4 /* HeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +142,18 @@
 			isa = PBXGroup;
 			children = (
 				025F7FDB259083210034A175 /* AppDelegate.swift */,
+				02FC83C72590F16600A482A4 /* Custom Classes */,
 				025F7FDD259083210034A175 /* SceneDelegate.swift */,
 				025F7FDF259083210034A175 /* ViewController.swift */,
-				025F7FE1259083210034A175 /* Main.storyboard */,
+				02FC83CD2590F19500A482A4 /* Model */,
+				02FC83BD2590ECD700A482A4 /* HomeFeedViewCell.swift */,
+				02FC83C22590ED4200A482A4 /* MainTabBarController.swift */,
+				02FC83EE2590FB4400A482A4 /* Discover */,
+				02FC83B12590DFB200A482A4 /* Views */,
 				025F7FE4259083250034A175 /* Assets.xcassets */,
-				025F7FE6259083250034A175 /* LaunchScreen.storyboard */,
+				02C1B5D825913998003018DF /* Me */,
 				025F7FE9259083250034A175 /* Info.plist */,
+				02C1B5F825914A45003018DF /* Inbox */,
 			);
 			path = TikiToker;
 			sourceTree = "<group>";
@@ -126,6 +174,133 @@
 				025F7FFF259083250034A175 /* Info.plist */,
 			);
 			path = TikiTokerUITests;
+			sourceTree = "<group>";
+		};
+		02C1B5D825913998003018DF /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				02C1B5E3259140FD003018DF /* AccountViewController.swift */,
+				02C1B6272591CF11003018DF /* AccountHeaderCell */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		02C1B5F825914A45003018DF /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				02C1B60C2591CE52003018DF /* InboxTableViewCell */,
+				02C1B60025914A6A003018DF /* InboxViewController.swift */,
+				02C1B6102591CE5E003018DF /* SectionHeaderTableViewCell */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		02C1B60C2591CE52003018DF /* InboxTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02C1B5F925914A5B003018DF /* InboxTableViewCell.swift */,
+				02C1B5FA25914A5B003018DF /* InboxTableViewCell.xib */,
+			);
+			path = InboxTableViewCell;
+			sourceTree = "<group>";
+		};
+		02C1B6102591CE5E003018DF /* SectionHeaderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02C1B6052591CAB0003018DF /* SectionHeaderTableViewCell.swift */,
+				02C1B6062591CAB0003018DF /* SectionHeaderTableViewCell.xib */,
+			);
+			path = SectionHeaderTableViewCell;
+			sourceTree = "<group>";
+		};
+		02C1B6272591CF11003018DF /* AccountHeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				02C1B6212591CF05003018DF /* AccountHeaderTableViewCell.swift */,
+				02C1B6202591CF05003018DF /* AccountHeaderTableViewCell.xib */,
+			);
+			path = AccountHeaderCell;
+			sourceTree = "<group>";
+		};
+		02FC83B12590DFB200A482A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				025F7FE6259083250034A175 /* LaunchScreen.storyboard */,
+				025F7FE1259083210034A175 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02FC83C72590F16600A482A4 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02FC83C82590F17A00A482A4 /* UIGradientView.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		02FC83CD2590F19500A482A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02FC83CE2590F1A900A482A4 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02FC83DE2590FA9C00A482A4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02FC83E72590FB3300A482A4 /* DiscoverTableViewCell.swift */,
+				02FC83E82590FB3300A482A4 /* DiscoverTableViewCell.xib */,
+				02FC844A259129C200A482A4 /* Header */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		02FC83DF2590FAA700A482A4 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02FC83E02590FADB00A482A4 /* DiscoverCollectionViewCell.swift */,
+				02FC83E12590FADB00A482A4 /* DiscoverCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		02FC83EE2590FB4400A482A4 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				02FC83DF2590FAA700A482A4 /* CollectionViewCell */,
+				02FC83DE2590FA9C00A482A4 /* TableViewCell */,
+				02FC83F22590FB9800A482A4 /* DiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		02FC844A259129C200A482A4 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				02FC844C259129DB00A482A4 /* CollectionViewCell */,
+				02FC844B259129D100A482A4 /* TableViewCell */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		02FC844B259129D100A482A4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02FC8443259126E300A482A4 /* DiscoverHeaderTableViewCell.swift */,
+				02FC8444259126E300A482A4 /* DiscoverHeaderTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		02FC844C259129DB00A482A4 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				02FC844D259129FD00A482A4 /* HeaderCollectionViewCell.swift */,
+				02FC844E259129FD00A482A4 /* HeaderCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +382,7 @@
 				};
 			};
 			buildConfigurationList = 025F7FD3259083210034A175 /* Build configuration list for PBXProject "TikiToker" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -231,7 +406,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C1B5FC25914A5B003018DF /* InboxTableViewCell.xib in Resources */,
+				02FC83EA2590FB3300A482A4 /* DiscoverTableViewCell.xib in Resources */,
+				02C1B6082591CAB0003018DF /* SectionHeaderTableViewCell.xib in Resources */,
+				02FC8446259126E300A482A4 /* DiscoverHeaderTableViewCell.xib in Resources */,
 				025F7FE8259083250034A175 /* LaunchScreen.storyboard in Resources */,
+				02C1B6222591CF05003018DF /* AccountHeaderTableViewCell.xib in Resources */,
+				02FC83E32590FADB00A482A4 /* DiscoverCollectionViewCell.xib in Resources */,
+				02FC8450259129FD00A482A4 /* HeaderCollectionViewCell.xib in Resources */,
 				025F7FE5259083250034A175 /* Assets.xcassets in Resources */,
 				025F7FE3259083210034A175 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +441,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				025F7FE0259083210034A175 /* ViewController.swift in Sources */,
+				02FC83BE2590ECD700A482A4 /* HomeFeedViewCell.swift in Sources */,
+				02C1B6072591CAB0003018DF /* SectionHeaderTableViewCell.swift in Sources */,
+				02C1B5E4259140FD003018DF /* AccountViewController.swift in Sources */,
+				02C1B6232591CF05003018DF /* AccountHeaderTableViewCell.swift in Sources */,
+				02C1B60125914A6A003018DF /* InboxViewController.swift in Sources */,
+				02FC83E92590FB3300A482A4 /* DiscoverTableViewCell.swift in Sources */,
+				02FC8445259126E300A482A4 /* DiscoverHeaderTableViewCell.swift in Sources */,
+				02FC83E22590FADB00A482A4 /* DiscoverCollectionViewCell.swift in Sources */,
+				02FC83C32590ED4200A482A4 /* MainTabBarController.swift in Sources */,
+				02C1B5FB25914A5B003018DF /* InboxTableViewCell.swift in Sources */,
 				025F7FDC259083210034A175 /* AppDelegate.swift in Sources */,
+				02FC83C92590F17A00A482A4 /* UIGradientView.swift in Sources */,
+				02FC83CF2590F1A900A482A4 /* Post.swift in Sources */,
+				02FC844F259129FD00A482A4 /* HeaderCollectionViewCell.swift in Sources */,
 				025F7FDE259083210034A175 /* SceneDelegate.swift in Sources */,
+				02FC83F32590FB9800A482A4 /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +562,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +617,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
