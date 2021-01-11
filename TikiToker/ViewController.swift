@@ -37,6 +37,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as? HomeFeedViewCell else { return UICollectionViewCell() }
+        cell.delegate = self
         cell.configureCells(using: feed[indexPath.row])
         return cell
     }
@@ -53,5 +54,12 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+    }
+}
+extension ViewController: DoubleTapDelegate {
+    func doubleTap(indexPath: IndexPath?) {
+        if let ip = indexPath{
+            print("\(ip) is the index path for tapped view")
+        }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02038639259B27D900CE2DB7 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02038638259B27D900CE2DB7 /* Color.xcassets */; };
 		025F7FDC259083210034A175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F7FDB259083210034A175 /* AppDelegate.swift */; };
 		025F7FDE259083210034A175 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F7FDD259083210034A175 /* SceneDelegate.swift */; };
 		025F7FE0259083210034A175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F7FDF259083210034A175 /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02038638259B27D900CE2DB7 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		025F7FD8259083210034A175 /* TikiToker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikiToker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		025F7FDB259083210034A175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		025F7FDD259083210034A175 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,9 +153,10 @@
 				02FC83EE2590FB4400A482A4 /* Discover */,
 				02FC83B12590DFB200A482A4 /* Views */,
 				025F7FE4259083250034A175 /* Assets.xcassets */,
+				02038638259B27D900CE2DB7 /* Color.xcassets */,
 				02C1B5D825913998003018DF /* Me */,
-				025F7FE9259083250034A175 /* Info.plist */,
 				02C1B5F825914A45003018DF /* Inbox */,
+				025F7FE9259083250034A175 /* Info.plist */,
 			);
 			path = TikiToker;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				02C1B6082591CAB0003018DF /* SectionHeaderTableViewCell.xib in Resources */,
 				02FC8446259126E300A482A4 /* DiscoverHeaderTableViewCell.xib in Resources */,
 				025F7FE8259083250034A175 /* LaunchScreen.storyboard in Resources */,
+				02038639259B27D900CE2DB7 /* Color.xcassets in Resources */,
 				02C1B6222591CF05003018DF /* AccountHeaderTableViewCell.xib in Resources */,
 				02FC83E32590FADB00A482A4 /* DiscoverCollectionViewCell.xib in Resources */,
 				02FC8450259129FD00A482A4 /* HeaderCollectionViewCell.xib in Resources */,

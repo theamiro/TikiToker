@@ -43,7 +43,7 @@ class DiscoverViewController: UIViewController {
         tableView.register(UINib(nibName: "DiscoverTableViewCell", bundle: nil), forCellReuseIdentifier: "DiscoverTableViewCell")
         tableView.register(UINib(nibName: "DiscoverHeaderTableViewCell", bundle: nil), forCellReuseIdentifier: "DiscoverHeaderTableViewCell")
         tableView.delegate = self
-        tableView.dataSource = self
+        tableView.dataSource = self 
     }
 }
 extension DiscoverViewController: UITableViewDelegate, UITableViewDataSource {
@@ -52,7 +52,7 @@ extension DiscoverViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "DiscoverTableViewCell") as? DiscoverTableViewCell else { return UITableViewCell()}
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "DiscoverTableViewCell") as? DiscoverTableViewCell else { return UITableViewCell() }
         cell.configure(with: feed[indexPath.row])
         return cell
     }
